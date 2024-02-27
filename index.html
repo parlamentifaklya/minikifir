@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <script defer src="export.json"></script>
+    <title>Mini KIFIR</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="error"></h1>
+        <div id="input_form">
+            <label for="OM_input">OM azonosító:</label>
+            <form id="inputform">
+                <input type="number" min-length="11" max-length="11" pattern="[0-9]" required id="OM_input">   
+            </form>
+            <label for="slider-button">Filter Search:</label>
+            <label class="switch">
+                <input type="checkbox" id="slider-button">
+                <span class="slider round"></span>
+            </label>
+            <div type="button" id="search-gomb" class="button-33">Search</div>
+            <div type="button" id="list-gomb" class="button-33">List All</div>
+        </div>
+        <table id="results">
+            <tr>
+                <td>OM</td>
+                <td>Név</td>
+                <td>Értesítési Cím</td>
+                <td>Email</td>
+                <td>Születési Dátum</td>
+                <td>Matek Pont</td>
+                <td>Magyar Pont</td>
+            </tr>    
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+let datas = 
+[
+  {
+    "OmAzon": "12345678901",
+    "Nev": "Kovács János",
+    "ErtesitesiCime": "Budapest, Kossuth utca 123.",
+    "Email": "kovacs.janos@email.com",
+    "SzuletesiDatum": "1995-05-15T00:00:00",
+    "MatekPont": 75,
+    "MagyarPont": 82
+  },
+  {
+    "OmAzon": "23456789012",
+    "Nev": "Nagy Anna",
+    "ErtesitesiCime": "Debrecen, Petőfi tér 56.",
+    "Email": "nagy.anna@email.com",
+    "SzuletesiDatum": "1998-09-22T00:00:00",
+    "MatekPont": -1,
+    "MagyarPont": -1
+  },
+  {
+    "OmAzon": "34567890123",
+    "Nev": "Szabó Péter",
+    "ErtesitesiCime": "Szeged, Rákóczi utca 87.",
+    "Email": "szabo.peter@email.com",
+    "SzuletesiDatum": "2000-03-10T00:00:00",
+    "MatekPont": -1,
+    "MagyarPont": -1
+  },
+  {
+    "OmAzon": "45678901234",
+    "Nev": "Tóth Eszter",
+    "ErtesitesiCime": "Miskolc, Ady Endre utca 78.",
+    "Email": "toth.eszter@email.com",
+    "SzuletesiDatum": "1997-11-05T00:00:00",
+    "MatekPont": 70,
+    "MagyarPont": 85
+  },
+  {
+    "OmAzon": "56789012345",
+    "Nev": "Varga Gábor",
+    "ErtesitesiCime": "Pécs, Szabadság tér 21.",
+    "Email": "varga.gabor@email.com",
+    "SzuletesiDatum": "1999-06-18T00:00:00",
+    "MatekPont": 68,
+    "MagyarPont": 80
+  }
+]
